@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:id="@+id/tool_bar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/goly_white"
+    android:elevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/search_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_alignParentLeft="true">
+
+            <ImageButton
+                android:id="@+id/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_search"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/history_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/search_ll"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="10dp">
+
+            <ImageButton
+                android:id="@+id/history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_history"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/favorite_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/history_ll"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="10dp">
+
+            <ImageButton
+                android:id="@+id/favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_favorite"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Favorite"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/service_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/customers_ll"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dp">
+
+            <ImageButton
+                android:id="@+id/service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_service"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/customers_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/piggy_ll"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dp">
+
+            <ImageButton
+                android:id="@+id/customers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_customers"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Customers"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/piggy_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="5dp">
+
+            <ImageButton
+                android:id="@+id/piggy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_piggy"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Piggy"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</android.support.v7.widget.Toolbar>
