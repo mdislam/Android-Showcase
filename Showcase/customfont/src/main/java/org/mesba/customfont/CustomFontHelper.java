@@ -12,6 +12,7 @@ public class CustomFontHelper {
     public static final String TYPEFACE_AVENIR_ROMAN = "fonts/AvenirLTStd-Roman.otf";
     public static final String TYPEFACE_AVENIR_LIGHT = "fonts/AvenirLTStd-Light.otf";
     public static final String TYPEFACE_AVENIR_BLACK = "fonts/AvenirLTStd-Black.otf";
+    public static final String TYPEFACE_ASIMOV = "fonts/Asimov.otf";
 
     public static Typeface applyAvenirRoman(Context context){
         customFont = Typeface.createFromAsset(context.getAssets(), TYPEFACE_AVENIR_ROMAN);
@@ -25,6 +26,11 @@ public class CustomFontHelper {
 
     public static Typeface applyAvenirBlack(Context context){
         customFont = Typeface.createFromAsset(context.getAssets(), TYPEFACE_AVENIR_BLACK);
+        return customFont;
+    }
+
+    public static Typeface applyAsimov(Context context){
+        customFont = Typeface.createFromAsset(context.getAssets(), TYPEFACE_ASIMOV);
         return customFont;
     }
 }
