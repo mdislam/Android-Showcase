@@ -11,6 +11,10 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/customfont" />
+            <option value="$PROJECT_DIR$/easyalertdialog" />
+            <option value="$PROJECT_DIR$/easyasynchttprequest" />
+            <option value="$PROJECT_DIR$/globalvariable" />
+            <option value="$PROJECT_DIR$/showcaseclient" />
           </set>
         </option>
       </GradleProjectSettings>

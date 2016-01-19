@@ -5,6 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/Showcase.iml" filepath="$PROJECT_DIR$/Showcase.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/customfont/customfont.iml" filepath="$PROJECT_DIR$/customfont/customfont.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyalertdialog/easyalertdialog.iml" filepath="$PROJECT_DIR$/easyalertdialog/easyalertdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyasynchttprequest/easyasynchttprequest.iml" filepath="$PROJECT_DIR$/easyasynchttprequest/easyasynchttprequest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/globalvariable/globalvariable.iml" filepath="$PROJECT_DIR$/globalvariable/globalvariable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/showcaseclient/showcaseclient.iml" filepath="$PROJECT_DIR$/showcaseclient/showcaseclient.iml" />
     </modules>
   </component>
 </project>

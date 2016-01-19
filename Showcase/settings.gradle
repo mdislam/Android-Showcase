@@ -1,1 +1,1 @@
-include ':app', ':customfont'
+include ':app', ':customfont', ':easyalertdialog', ':easyasynchttprequest', ':showcaseclient', ':globalvariable'
