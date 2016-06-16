@@ -1,1 +1,1 @@
-Helper class for custom UIs
+Helper class for showing custom fonts
