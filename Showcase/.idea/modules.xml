@@ -4,12 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Showcase.iml" filepath="$PROJECT_DIR$/Showcase.iml" />
       <module fileurl="file://$PROJECT_DIR$/andriod_ui/andriod_ui.iml" filepath="$PROJECT_DIR$/andriod_ui/andriod_ui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/custom_font/customfont.iml" filepath="$PROJECT_DIR$/custom_font/customfont.iml" />
-      <module fileurl="file://$PROJECT_DIR$/easy_alert_dialog/easyalertdialog.iml" filepath="$PROJECT_DIR$/easy_alert_dialog/easyalertdialog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/global_variable/globalvariable.iml" filepath="$PROJECT_DIR$/global_variable/globalvariable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom_font/custom_font.iml" filepath="$PROJECT_DIR$/custom_font/custom_font.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_alert_dialog/easy_alert_dialog.iml" filepath="$PROJECT_DIR$/easy_alert_dialog/easy_alert_dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/global_variable/global_variable.iml" filepath="$PROJECT_DIR$/global_variable/global_variable.iml" />
       <module fileurl="file://$PROJECT_DIR$/remote_communication/remote_communication.iml" filepath="$PROJECT_DIR$/remote_communication/remote_communication.iml" />
       <module fileurl="file://$PROJECT_DIR$/showcase_android_demo/showcase_android_demo.iml" filepath="$PROJECT_DIR$/showcase_android_demo/showcase_android_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/showcase_java_demo/java_demo.iml" filepath="$PROJECT_DIR$/showcase_java_demo/java_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/showcase_java_demo/showcase_java_demo.iml" filepath="$PROJECT_DIR$/showcase_java_demo/showcase_java_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart_async_communication/smart_async_communication.iml" filepath="$PROJECT_DIR$/smart_async_communication/smart_async_communication.iml" />
     </modules>
   </component>
 </project>
