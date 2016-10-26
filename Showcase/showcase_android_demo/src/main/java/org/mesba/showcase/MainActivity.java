@@ -3,6 +3,7 @@ package org.mesba.showcase;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -11,11 +12,15 @@ import android.widget.TextView;
 
 import org.mesba.customfont.CustomFontHelper;
 import org.mesba.showcase.interfaces.IViewInitializer;
+import org.mygeotrust.datewizard.DateWizardLayout;
+import org.mygeotrust.datewizard.DateWizardListener;
 
-public class MainActivity extends AppCompatActivity implements IViewInitializer, View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements IViewInitializer, View.OnClickListener, DateWizardListener {
 
     private Button btnNavDrawer;
     private TextView tvTitle;
+
+    private DateWizardLayout dateWizardLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +62,9 @@ public class MainActivity extends AppCompatActivity implements IViewInitializer,
         // using the custom font library
         btnNavDrawer.setTypeface(CustomFontHelper.applyAvenirRoman(getApplicationContext()));
         tvTitle.setTypeface(CustomFontHelper.applyAvenirBlack(getApplicationContext()));
+
+        dateWizardLayout = (DateWizardLayout) findViewById(R.id.date_wizard);
+        dateWizardLayout.addDateWizardUpdateListener(this);
     }
 
     @Override
@@ -77,5 +85,10 @@ public class MainActivity extends AppCompatActivity implements IViewInitializer,
                 startActivity(navIntent);
                 break;
         }
+    }
+
+    @Override
+    public void onDateWizardUpdated(int date, int month, int year) {
+        Log.d("DateWizardDemo", "result: " + date + "/" + dateWizardLayout.getMonthName(month) + "/" + year);
     }
 }

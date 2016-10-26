@@ -23,4 +23,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
 
+    <org.mygeotrust.datewizard.DateWizardLayout
+        android:id="@+id/date_wizard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_nav_drawer"/>
+
 </RelativeLayout>

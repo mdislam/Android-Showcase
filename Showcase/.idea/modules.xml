@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Showcase.iml" filepath="$PROJECT_DIR$/Showcase.iml" />
       <module fileurl="file://$PROJECT_DIR$/andriod_ui/andriod_ui.iml" filepath="$PROJECT_DIR$/andriod_ui/andriod_ui.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom_font/custom_font.iml" filepath="$PROJECT_DIR$/custom_font/custom_font.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datewizard/datewizard.iml" filepath="$PROJECT_DIR$/datewizard/datewizard.iml" />
       <module fileurl="file://$PROJECT_DIR$/easy_alert_dialog/easy_alert_dialog.iml" filepath="$PROJECT_DIR$/easy_alert_dialog/easy_alert_dialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/global_variable/global_variable.iml" filepath="$PROJECT_DIR$/global_variable/global_variable.iml" />
       <module fileurl="file://$PROJECT_DIR$/remote_communication/remote_communication.iml" filepath="$PROJECT_DIR$/remote_communication/remote_communication.iml" />

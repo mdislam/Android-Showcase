@@ -1,1 +1,1 @@
-include ':showcase_android_demo', ':custom_font', ':easy_alert_dialog', ':showcase_java_demo', ':global_variable', ':remote_communication', ':andriod_ui', ':smart_async_communication'
+include ':showcase_android_demo', ':custom_font', ':easy_alert_dialog', ':showcase_java_demo', ':global_variable', ':remote_communication', ':andriod_ui', ':smart_async_communication', ':datewizard'
